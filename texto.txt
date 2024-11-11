@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolhas Saudáveis no Trabalho</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Escolhas Saudáveis no Trabalho</h1>
+        <p>Facilitando suas escolhas alimentares para uma vida saudável no ambiente de trabalho.</p>
+        <nav>
+            <a href="#mapa-nutricional">Mapa Nutricional</a>
+            <a href="#cardapio">Cardápio</a>
+            <a href="#receitas">Receitas</a>
+            <a href="#feedback">Feedback</a>
+        </nav>
+    </header>
+
+    <!-- Mapa Nutricional -->
+    <section id="mapa-nutricional">
+        <h2>Mapa Nutricional do Cardápio</h2>
+        <div class="legenda">
+            <div class="legenda-item verde">Verde: Opções Saudáveis e Equilibradas</div>
+            <div class="legenda-item amarelo">Amarelo: Opções Moderadas</div>
+            <div class="legenda-item vermelho">Vermelho: Opções Menos Equilibradas</div>
+        </div>
+        <p>Confira nossas dicas para fazer escolhas saudáveis no trabalho!</p>
+    </section>
+
+    <!-- Cardápio -->
+    <section id="cardapio">
+        <h2>Cardápio do Dia</h2>
+        <table>
+            <tr>
+                <th>Prato</th>
+                <th>Categoria</th>
+                <th>Informações Nutricionais</th>
+            </tr>
+            <tr class="verde">
+                <td>Salada de folhas com frango grelhado</td>
+                <td>Verde</td>
+                <td>Rica em proteínas e vitaminas</td>
+            </tr>
+            <tr class="amarelo">
+                <td>Carne de panela com batatas</td>
+                <td>Amarelo</td>
+                <td>Equilibrado, com moderação em carboidratos</td>
+            </tr>
+            <tr class="vermelho">
+                <td>Lasanha de carne com molho branco</td>
+                <td>Vermelho</td>
+                <td>Alto teor de gordura e carboidratos</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Receitas -->
+    <section id="receitas">
+        <h2>Receitas para um Dia Saudável</h2>
+        <p>Aqui estão algumas receitas saudáveis que você pode preparar em casa e levar para o trabalho.</p>
+    </section>
+
+    <!-- Feedback -->
+    <section id="feedback">
+        <h2>Ajude-nos a Melhorar</h2>
+        <form>
+            <label for="feedback-text">Deixe seu feedback:</label><br>
+            <textarea id="feedback-text" rows="4" cols="50"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2024 Escolhas Saudáveis no Trabalho</p>
+    </footer>
+</body>
+</html>
